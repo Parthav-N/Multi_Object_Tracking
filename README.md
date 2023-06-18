@@ -23,9 +23,11 @@ This project is a multi-object tracking system that detects and tracks objects i
 ## Usage
 
 1. Place the video file you want to analyze in the project directory.
-2. Update the cap variable in the main file (main.py) with the path to your video file: ```cap = cv2.VideoCapture("your-video-file.mp4")```
-3. Run the main file: ```python main.py``` The application will start processing the video and display the results in separate windows for the region of interest (ROI), the original frame, and the binary mask.
-4. Press the 'Esc' key to exit the application.
+2. Update the cap variable in the main file (main.py) with the path to your video file:
+        ```cap = cv2.VideoCapture("your-video-file.mp4")```
+4. Run the main file: ```python main.py```\
+   The application will start processing the video and display the results in separate windows for the region of interest (ROI), the original frame, and the binary mask.
+6. Press the 'Esc' key to exit the application.
 
 ## Customization
 
